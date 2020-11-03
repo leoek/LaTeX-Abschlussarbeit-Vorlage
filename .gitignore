@@ -25,6 +25,7 @@
 *.nlo
 *.nls
 *.synctex
+*.synctex.gz
 *.bak
 *.fls
 *.fdb*
@@ -35,3 +36,6 @@
 *.nav
 *.snm
 *.bcf
+# ignore the whole output folder content
+output/**
+!output/.gitkeep
